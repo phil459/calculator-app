@@ -38,7 +38,7 @@ def main():
     else:
         raise Exception(f"Unsupported or invalid operation '{operation}'")
     
-    print(result)
+    print(f"The result is: {result}")
 
     return 0
 
